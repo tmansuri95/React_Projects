@@ -50,6 +50,7 @@ function App() {
                         selectCurrency={from}
                         onAmountChange={(amount) => setAmount(amount)}
                         
+                        
 
                     />
                 </div>
@@ -78,6 +79,7 @@ function App() {
             </form>
         </div>
     </div>
+    <div className='bg-blue-200 rounded-xl text-black'>Developed by Tosif Mansuri Github @tmansuri95</div>
 </div>
 );
   
